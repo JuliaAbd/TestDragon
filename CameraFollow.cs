@@ -10,6 +10,8 @@ public class CameraFollow : MonoBehaviour {
     float playerSpeed;
     public float xOffset;
     private Vector3 currvel;
+	public float oneMore;
+	public string NoMore;
     
 
     void FixedUpdate ()

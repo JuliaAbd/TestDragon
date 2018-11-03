@@ -9,5 +9,5 @@ public class Item : ScriptableObject
     public Sprite icon = null;
     public bool isDefault=false;
 
-
+public abstract void OneMoreAgain(){};
 }
